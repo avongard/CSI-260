@@ -33,7 +33,7 @@ class Country:
     def __repr__(self):
         return f'<<{self.name}>>'
 
-    def is_larger(self, other: "Country"):
+    def is_larger(self, other:"Country"):
         if self.area > other.area:
             return True
         else:
